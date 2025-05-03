@@ -1,0 +1,66 @@
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+
+  h1, h2 {
+    color: #005577;
+  }
+  
+  form input[type="text"],
+  form input[type="email"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  input[type="submit"] {
+    background-color: #005577;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #666;
+  }
+  /*part 1
+1. CSS Units: px, em, rem:
+-px stands for pixels. It’s a fixed unit, so the size stays the same no matter where it’s used.
+Example: font-size: 16px;
+
+-em is a relative unit. It depends on the font size of the parent element. So if the parent has font-size: 16px, then 1em = 16px, 2em = 32px, etc.
+
+-rem is also relative, but it depends only on the root element (<html>), not the parent. So it’s more consistent.
+Example: font-size: 1.5rem; (This means 1.5 times the root font size)
+
+2. HTML Audio and Video Tags
+-<audio> is used to play music or sound files. We can add controls to let the user play, pause, or adjust volume.
+<audio controls>
+  <source src="audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+-<video> works the same way, but for video files. We can add width, height, and other options like autoplay or loop.
+<video width="320" height="240" controls>
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+3. What is Web Accessibility and How Can We Improve It?
+Web accessibility means making websites easy to use for everyone, including people with disabilities like vision or hearing problems.
+
+We can improve accessibility by:
+-Using clear and semantic HTML tags like <main>, <header>, <section>.
+-Adding alt text to images so screen readers can describe them.
+-Making sure colors have good contrast.
+-Allowing keyboard-only navigation.
+-Using ARIA labels for screen readers.
+*/
